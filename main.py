@@ -88,13 +88,13 @@ def createNormalVigenereTable():
     table = []
     for i in range(26):
         table.append(alphabet[i:] + alphabet[:i])
-    return 
+    return table
     
 
 def createDict(List):
     dict = {}
     for i, key in enumerate(List):
-        dict[key] == i
+        dict[key] = i
     return dict
 
 
