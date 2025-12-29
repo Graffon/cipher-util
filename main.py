@@ -125,7 +125,7 @@ def getValidInput(prompt):
     while True:
         try:
             user_input = input(prompt)
-            if validateInput(user_input)
+            if validateInput(user_input):
                 return user_input
             print("Invalid input. Only letters and spaces are allowed. Please try again.")
         except KeyboardInterrupt:
