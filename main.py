@@ -107,7 +107,7 @@ def printTable(table):
     for row in table:
         print(row)
 
-def hasDuplicateLetter(text):
+def hasDuplicateLetters(text):
     seen = set()
     for char in text:
         if char in seen:
